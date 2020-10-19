@@ -69,7 +69,7 @@ function getUserName() {
         result.textContent = 'Username must contain at least 3 characters';
         //alert('Username must contain at least 3 characters');
     } else {
-        result.textContent = 'Your username and score is: ' + nameField +" "+ quiz.score + " out of 5";
+        result.textContent = 'Your username and score is: '+ nameField +" "+ quiz.score + " out of 5";
         //alert(nameField);
     }
     }
